@@ -1,1 +1,8 @@
+
+site.title: ESME-ML
+site.description: Introduction to Machine Learning
+show_downloads: false
+
 theme: jekyll-theme-dinky
+site.github.is_project_page: false
+site.github.is_user_page: false
