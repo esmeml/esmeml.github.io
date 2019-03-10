@@ -42,7 +42,7 @@ It will be a written close book exam with questions based on the mandatory readi
 3. Daumé III, H. (2017). [A Course in Machine Learning](http://ciml.info/dl/v0_99/ciml-v0_99-all.pdf). Self-published, 2nd edition 
 4. James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013). [An introduction to statistical learning](http://www-bcf.usc.edu/~gareth/ISL/). Springer
 5. Goodfellow, I., Bengio, Y., and Courville, A. (2016). [Deep learning](https://www.deeplearningbook.org/). MIT press. 
-6. Azencott, C.-A. (2018). Introduction au Machine Learnng. Dunond
+6. Azencott, C.-A. (2018). Introduction au Machine Learnng. Dunod
 
 ## Resources
 
