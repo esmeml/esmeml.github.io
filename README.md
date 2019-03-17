@@ -55,15 +55,15 @@ It will be a written close book exam with questions based on the mandatory readi
 
 ## Schedule
 
-1. **Introduction** [slides](01-lectures/01_introduction.pdf) [assignment 01](02-assignments/assignments_01.pdf)
+1. **Introduction** [slides](01-lectures/01_introduction.pdf); [assignment 01](02-assignments/assignments_01.pdf)
 	
 	This lectures introduces machine learning, its applications, and the kind of problems. Likewise, it presents related concepts such as supervised and unsupervised learning, and generalization.
 	
-2. **Linear and logistic regression** [lecture notes](01-lectures/02-linear_and_logistic_regression.pdf) [lab 1: introduction](03-labs/01_manipulating_data.ipynb), [lab 2: regression](03-labs/02_regression_algorithms.ipynb); [assignment 02](02-assignments/assignments_02.pdf)
+2. **Linear and logistic regression** [lecture notes](01-lectures/02_linear_and_logistic_regression.pdf); [lab 01: introduction](03-labs/lab01_manipulating_data.ipynb), [lab 02: regression](03-labs/lab02_regression_algorithms.ipynb); [assignment 02](02-assignments/assignments_02.pdf)
 
 	This lecture introduces parametric approaches to supervised learning and linear models. Linear regressors are expressed as maximum likelihood estimation problem and derive its estimator. The concepts include: (a) parametric methods, (b) maximum likelihood estimates, (c) linear regression, and (d) logistic regression. It also discusses the measures of performance.
 	
-3. **Dimension reduction** [slides](01-lectures/03_dimension_reduction.pdf) [lab: dimension reduction](03-labs/lab03_dimensionality_reduction.ipynb)
+3. **Dimension reduction** [slides](01-lectures/03_dimension_reduction.pdf); [lab 03: dimension reduction](03-labs/lab03_dimensionality_reduction.ipynb)
 
 	This lectures discusses how to tackle high-dimensional learning problems, and how to reduce dimension. Thus, it introduces the principal component analysis (PCA) method.
 	
@@ -76,27 +76,27 @@ It will be a written close book exam with questions based on the mandatory readi
 	 - [Linear Dimensionality Reduction](http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf)
 	 - [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 
-4. **Model evaluation and selection** [slides]() [lab: model evaluation]()
+4. **Model evaluation and selection** [slides](); [lab 04: model evaluation]()
 
 	This lecture discusses the assessment and evaluation of supervised machine learning models. Thus, the main topics include: training and test sets, cross-validation, bootstrap, measures of model complexity, and measures of performance for classification and regression. 
 	
-5. **Regularized linear regression and nearest-neighbors methods** [slides]() [lab: regularized linear regression]()
+5. **Regularized linear regression and nearest-neighbors methods** [slides](); [lab 05: regularized linear regression]()
 
 	This lecture introduces the concept of regularization as a means to controlling the complexity of the hypothesis space, and apply it to linear models. Furthermore, non-parametric methods are illustrated with the nearest-neighbors approaches. The discussed topics are: lasso, ridge regression, structured regularization, non-parametric learning, and k-nearest neighbors.
 	
-6. **Tree-based methods** [slides]() [lab: tree-based method]()
+6. **Tree-based methods** [slides](); [lab 06: tree-based method]()
 	
 	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors. The concepts are illustred with ensemble methods, boosting, and random forests models.
 	
-7. **Support vector machines** [slides]() [lab: SVM]()
+7. **Support vector machines** [slides](); [lab 07: SVM]()
 
 	This lecture introduces support-vector machine from its principles in the case of linearly separable data, and shows how positive-definite kernels can be used to extend the approach to non-linear separating functions.
 	
-8. **Clustering** [slides]() [lab: k-means]()
+8. **Clustering** [slides](); [lab 08: k-means]()
 	
 	This lecture introduces clustering, the common unsupervised learning problem. Its concepts are illustrated through hierarchical clustering, k-means, and DBSCAN.
 	 
-9. **Neural networks** [slides]()
+9. **Neural networks** [slides](); [lab 09: nn]()
 
 	This lecture introduces the perceptron algorithm, multi-layer networks, backpropagation. Furthermore, it briefly discusses about recent advances in this area such as convolution neural network (CNN) and generative adversarial network (GAN)
 
