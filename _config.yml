@@ -2,6 +2,7 @@
 title: ESME-ML
 description: Introduction to Machine Learning
 show_downloads: false
+google_analytics: UA-136395471-1
 
 theme: jekyll-theme-dinky
 is_project_page: false
