@@ -63,9 +63,18 @@ It will be a written close book exam with questions based on the mandatory readi
 
 	This lecture introduces parametric approaches to supervised learning and linear models. Linear regressors are expressed as maximum likelihood estimation problem and derive its estimator. The concepts include: (a) parametric methods, (b) maximum likelihood estimates, (c) linear regression, and (d) logistic regression. It also discusses the measures of performance.
 	
-3. **Dimension reduction** [slides]() [lab: dimension reduction]()
+3. **Dimension reduction** [slides](01-lectures/03_dimension_reduction.pdf) [lab: dimension reduction](03-labs/lab03_dimensionality_reduction.ipynb)
 
 	This lectures discusses how to tackle high-dimensional learning problems, and how to reduce dimension. Thus, it introduces the principal component analysis (PCA) method.
+	
+	**Resources**:
+	 - [An Introduction to Feature Selection](link.springer.com/chapter/10.1007/978-1-4614-6849-3_19)
+	 - [An introduction to variable and feature selection](https://jmlr.org/papers/v3/guyon03a.html)
+	 - [A tutorial on principal component analysis](https://arxiv.org/abs/1404.1100)
+	 - [Visualizing data using t-SNE](jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
+	 - [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne)
+	 - [Linear Dimensionality Reduction](http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf)
+	 - [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 
 4. **Model evaluation and selection** [slides]() [lab: model evaluation]()
 
