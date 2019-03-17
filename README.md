@@ -68,10 +68,10 @@ It will be a written close book exam with questions based on the mandatory readi
 	This lectures discusses how to tackle high-dimensional learning problems, and how to reduce dimension. Thus, it introduces the principal component analysis (PCA) method.
 	
 	**Resources**:
-	 - [An Introduction to Feature Selection](link.springer.com/chapter/10.1007/978-1-4614-6849-3_19)
-	 - [An introduction to variable and feature selection](https://jmlr.org/papers/v3/guyon03a.html)
+	 - [An Introduction to Feature Selection](https://link.springer.com/chapter/10.1007/978-1-4614-6849-3_19)
+	 - [An introduction to variable and feature selection](http://jmlr.org/papers/v3/guyon03a.html)
 	 - [A tutorial on principal component analysis](https://arxiv.org/abs/1404.1100)
-	 - [Visualizing data using t-SNE](jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
+	 - [Visualizing data using t-SNE](http://jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
 	 - [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne)
 	 - [Linear Dimensionality Reduction](http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf)
 	 - [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
