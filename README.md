@@ -64,7 +64,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	This lecture introduces parametric approaches to supervised learning and linear models. Linear regressors are expressed as maximum likelihood estimation problem and derive its estimator. The concepts include: (a) parametric methods, (b) maximum likelihood estimates, (c) linear regression, and (d) logistic regression. It also discusses the measures of performance.
 	
 	**References**:
-	- Tsanas A, Xifara A. [**Accurate quantitative estimation of energy performance of residential buildings using statistical**](http://people.maths.ox.ac.uk/tsanas/Preprints/ENB2012.pdf) machine learning tools. Energy and Buildings. 2012 Jun 1;49:560-7.
+	- Tsanas A, Xifara A. [**Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools**](http://people.maths.ox.ac.uk/tsanas/Preprints/ENB2012.pdf). Energy and Buildings. 2012 Jun 1;49:560-7.
 	- [Linear Models](http://ciml.info/dl/v0_99/ciml-v0_99-ch07.pdf)
 	
 3. **Dimension reduction** [slides](01-lectures/03_dimension_reduction.pdf); [lab 03: dimension reduction](03-labs/lab03_dimensionality_reduction.ipynb)
