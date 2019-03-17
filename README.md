@@ -63,11 +63,15 @@ It will be a written close book exam with questions based on the mandatory readi
 
 	This lecture introduces parametric approaches to supervised learning and linear models. Linear regressors are expressed as maximum likelihood estimation problem and derive its estimator. The concepts include: (a) parametric methods, (b) maximum likelihood estimates, (c) linear regression, and (d) logistic regression. It also discusses the measures of performance.
 	
+	**References**:
+	- Tsanas A, Xifara A. [**Accurate quantitative estimation of energy performance of residential buildings using statistical**](http://people.maths.ox.ac.uk/tsanas/Preprints/ENB2012.pdf) machine learning tools. Energy and Buildings. 2012 Jun 1;49:560-7.
+	- [Linear Models](http://ciml.info/dl/v0_99/ciml-v0_99-ch07.pdf)
+	
 3. **Dimension reduction** [slides](01-lectures/03_dimension_reduction.pdf); [lab 03: dimension reduction](03-labs/lab03_dimensionality_reduction.ipynb)
 
 	This lectures discusses how to tackle high-dimensional learning problems, and how to reduce dimension. Thus, it introduces the principal component analysis (PCA) method.
 	
-	**Resources**:
+	**References**:
 	 - [An Introduction to Feature Selection](https://link.springer.com/chapter/10.1007/978-1-4614-6849-3_19)
 	 - [An introduction to variable and feature selection](http://jmlr.org/papers/v3/guyon03a.html)
 	 - [A tutorial on principal component analysis](https://arxiv.org/abs/1404.1100)
@@ -96,7 +100,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	
 	This lecture introduces clustering, the common unsupervised learning problem. Its concepts are illustrated through hierarchical clustering, k-means, and DBSCAN.
 	 
-9. **Neural networks** [slides](); [lab 09: nn]()
+9. **Neural networks** [slides](); [lab 09: neural_networks]()
 
 	This lecture introduces the perceptron algorithm, multi-layer networks, backpropagation. Furthermore, it briefly discusses about recent advances in this area such as convolution neural network (CNN) and generative adversarial network (GAN)
 
