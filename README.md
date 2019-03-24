@@ -80,7 +80,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	 - [Linear Dimensionality Reduction](http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf)
 	 - [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 
-4. **Model evaluation and selection** [slides](01-lectures/04_model_assessment.pdf); [lab 04: model assessment](03-labs/llab04_model_assessment.ipynb)
+4. **Model evaluation and selection** [slides](01-lectures/04_model_assessment.pdf); [lab 04: model assessment](03-labs/lab04_model_assessment.ipynb)
 
 	This lecture discusses model assessment of supervised machine learning. The discussed topics include: (a) training and test sets, (b) cross-validation, (c) bootstrap, (d) metrics of model complexity, and (e) metrics of performance for classification and regression. 
 	
