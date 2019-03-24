@@ -2,7 +2,7 @@
 
 ## Course description
 
-Machine learning is one of the main concepts behind data science and artificial intelligence (AI). The term machine learning or statistical learning refers to the science of automated detection of patterns in data. It has been widely used in tasks that require information extraction from large data sets. Examples of tasks include SPAM detection, fraudulent credit card transaction detection, face recognition by digital cameras, and voice commands recognition by personal assistance on smart-phones. Machine learning is also widely used in scientific domains such as bioinformatics, medicine, and astronomy. One characteristic of all these applications is that a human developer cannot provide an explicit and detailed specification of how these tasks should be executed, due to the complexity of the patterns that need to be detected.
+Machine learning is one of the main concepts behind data science and artificial intelligence (AI). The term machine learning or statistical learning refers to the science of automated detection of patterns in data. It has been widely used in tasks that require information extraction from large data sets. Examples of tasks include SPAM detection, fraudulent credit card transaction detection, face recognition by digital cameras, and voice commands recognition by personal assistance on smart-phones. Machine learning is also widely used in scientific domains such as Bioinformatics, medicine, and astronomy. One characteristic of all these applications is that a human developer cannot provide an explicit and detailed specification of how these tasks should be executed, due to the complexity of the patterns that need to be detected.
 
 ## Course objectives
 
@@ -42,7 +42,7 @@ It will be a written close book exam with questions based on the mandatory readi
 3. Daumé III, H. (2017). [A Course in Machine Learning](http://ciml.info/dl/v0_99/ciml-v0_99-all.pdf). Self-published, 2nd edition 
 4. James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013). [An introduction to statistical learning](http://www-bcf.usc.edu/~gareth/ISL/). Springer
 5. Goodfellow, I., Bengio, Y., and Courville, A. (2016). [Deep learning](https://www.deeplearningbook.org/). MIT press. 
-6. Azencott, C.-A. (2018). Introduction au Machine Learnng. Dunod
+6. Azencott, C.-A. (2018). Introduction au Machine Learning. Dunod
 
 ## Resources
 
@@ -57,11 +57,11 @@ It will be a written close book exam with questions based on the mandatory readi
 
 1. **Introduction** [slides](01-lectures/01_introduction.pdf); [assignment 01](02-assignments/assignments_01.pdf)
 	
-	This lectures introduces machine learning, its applications, and the kind of problems. Likewise, it presents related concepts such as supervised and unsupervised learning, and generalization.
+	This lectures introduces machine learning, its applications, and the kind of problems it can be applied. Likewise, it presents related concepts such as supervised and unsupervised learning, and generalization.
 	
 2. **Linear and logistic regression** [lecture notes](01-lectures/02_linear_and_logistic_regression.pdf); [lab 01: introduction](03-labs/lab01_manipulating_data.ipynb), [lab 02: regression](03-labs/lab02_regression_algorithms.ipynb); [assignment 02](02-assignments/assignments_02.pdf)
 
-	This lecture introduces parametric approaches to supervised learning and linear models. Linear regressors are expressed as maximum likelihood estimation problem and derive its estimator. The concepts include: (a) parametric methods, (b) maximum likelihood estimates, (c) linear regression, and (d) logistic regression. It also discusses the measures of performance.
+	This lecture introduces parametric approaches to supervised learning and linear models. Linear regressors are expressed as maximum likelihood estimation problem. The discussed concepts include: (a) parametric methods, (b) maximum likelihood estimates, (c) linear regression, and (d) logistic regression.
 	
 	**References**:
 	- Tsanas A, Xifara A. [**Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools**](http://people.maths.ox.ac.uk/tsanas/Preprints/ENB2012.pdf). Energy and Buildings. 2012 Jun 1;49:560-7.
@@ -69,7 +69,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	
 3. **Dimension reduction** [slides](01-lectures/03_dimension_reduction.pdf); [lab 03: dimension reduction](03-labs/lab03_dimensionality_reduction.ipynb)
 
-	This lectures discusses how to tackle high-dimensional learning problems, and how to reduce dimension. Thus, it introduces the principal component analysis (PCA) method.
+	This lectures discusses how to tackle high-dimensional learning problems, and how to reduce dimension through the **principal component analysis (PCA)** method.
 	
 	**References**:
 	 - [An Introduction to Feature Selection](https://link.springer.com/chapter/10.1007/978-1-4614-6849-3_19)
@@ -80,9 +80,9 @@ It will be a written close book exam with questions based on the mandatory readi
 	 - [Linear Dimensionality Reduction](http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf)
 	 - [sklearn.decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 
-4. **Model evaluation and selection** [slides](); [lab 04: model evaluation]()
+4. **Model evaluation and selection** [slides](01-lectures/04_model_assessment.pdf); [lab 04: model assessment](03-labs/llab04_model_assessment.ipynb)
 
-	This lecture discusses the assessment and evaluation of supervised machine learning models. Thus, the main topics include: training and test sets, cross-validation, bootstrap, measures of model complexity, and measures of performance for classification and regression. 
+	This lecture discusses model assessment of supervised machine learning. The discussed topics include: (a) training and test sets, (b) cross-validation, (c) bootstrap, (d) metrics of model complexity, and (e) metrics of performance for classification and regression. 
 	
 5. **Regularized linear regression and nearest-neighbors methods** [slides](); [lab 05: regularized linear regression]()
 
@@ -90,7 +90,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	
 6. **Tree-based methods** [slides](); [lab 06: tree-based method]()
 	
-	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors. The concepts are illustred with ensemble methods, boosting, and random forests models.
+	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors. The concepts are illustrated with ensemble methods, boosting, and random forests models.
 	
 7. **Support vector machines** [slides](); [lab 07: SVM]()
 
