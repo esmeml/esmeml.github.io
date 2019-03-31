@@ -84,9 +84,16 @@ It will be a written close book exam with questions based on the mandatory readi
 
 	This lecture discusses model assessment of supervised machine learning. The discussed topics include: (a) training and test sets, (b) cross-validation, (c) bootstrap, (d) metrics of model complexity, and (e) metrics of performance for classification and regression. 
 	
-5. **Regularized linear regression and nearest-neighbors methods** [slides](); [lab 05: regularized linear regression]()
+5. **Regularized linear regression and nearest-neighbors methods** [slides](01-lectures/05_regularized_linear_regression.pdf); [lab 05: regularized linear regression]()
 
 	This lecture introduces the concept of regularization as a means to controlling the complexity of the hypothesis space, and apply it to linear models. Furthermore, non-parametric methods are illustrated with the nearest-neighbors approaches. The discussed topics are: lasso, ridge regression, structured regularization, non-parametric learning, and k-nearest neighbors.
+
+	**References**:
+	  - [Linear Models](http://ciml.info/dl/v0_99/ciml-v0_99-ch07.pdf)
+	  - [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](http://web.stanford.edu/~hastie/ElemStatLearn/)
+	     * **Ridge regression**: session 3.4.1
+	     * **Lasso**: session 3.4.2
+	     * **Regularization**: session 10.12
 	
 6. **Tree-based methods** [slides](); [lab 06: tree-based method]()
 	
