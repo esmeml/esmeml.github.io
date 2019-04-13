@@ -96,13 +96,16 @@ It will be a written close book exam with questions based on the mandatory readi
 	     * **Lasso**: session 3.4.2
 	     * **Regularization**: session 10.12
 	
-6. **Tree-based methods** [slides](01-lectures/06_decision_tree.pdf); [lab 06: tree-based method](03-labs/lab06_trees.ipynb)
+6. **Tree-based methods** [slides](01-lectures/06_tree_based_learning_methods.pdf); [lab 06: tree-based method](03-labs/lab06_trees.ipynb)
 	
 	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors.
 	
 	 **References**:
 	 
-	  - Quinlan, J. Ross. [Induction of decision trees](01-lectures/quinlan.pdf). Machine Learning 1, no. 1 (1986): 81-106.
+	  - Quinlan, J. Ross. [Induction of decision trees](01-lectures/quinlan.pdf). Machine Learning 1, no. 1 (1986): 81-106
+	  - Breiman, Leo. [Random forests](https://link.springer.com/content/pdf/10.1023%2FA%3A1010933404324.pdf) Machine Learning 45, no. 1 (2001): 5-32
+	  - Schapire, Robert E. [The strength of weak learnability](https://link.springer.com/content/pdf/10.1023%2FA%3A1022648800760.pdf). Machine learning 5, no. 2 (1990): 197-227
+	  - Breiman, Leo. [Bagging predictors](https://link.springer.com/content/pdf/10.1007/BF00058655.pdf). Machine Learning 24, no. 2 (1996): 123-140.
 	  - [An Intoductory Tutorial on kd-trees](https://www.ri.cmu.edu/pub_files/pub1/moore_andrew_1991_1/moore_andrew_1991_1.pdf)
 	  - [Voronoi Tessellation](https://philogb.github.io/blog/2010/02/12/voronoi-tessellation/)
 	  - [A complete tutorial on tree-based modeling](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/#ten)
@@ -114,16 +117,17 @@ It will be a written close book exam with questions based on the mandatory readi
 	
 	**References**:
 	
-	   - Burges, Christopher JC. [A tutorial on support vector machines for pattern recognition](01-lectures/Burges1998.pdf). Data mining and knowledge discovery 2, no. 2 (1998): 121-167.  
+	  - Burges, Christopher JC. [A tutorial on support vector machines for pattern recognition](01-lectures/Burges1998.pdf). Data mining and knowledge discovery 2, no. 2 (1998): 121-167
+  
 	
 8. **Clustering** [slides](01-lectures/08_clustering.pdf); [lab 08: k-means](03-labs/clustering.ipynb)
 	
 	This lecture introduces clustering, the common unsupervised learning problem. Its concepts are illustrated through hierarchical clustering, k-means, and DBSCAN.
 	 
-9. **Neural networks** [slides](); [lab 09: neural_networks]()
+<!--9. **Neural networks** [slides](); [lab 09: neural_networks]()
 
 	This lecture introduces the perceptron algorithm, multi-layer networks, backpropagation. Furthermore, it briefly discusses about recent advances in this area such as convolution neural network (CNN) and generative adversarial network (GAN)
-
+-->
 
 
 
