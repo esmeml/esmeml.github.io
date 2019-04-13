@@ -114,8 +114,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	
 	**References**:
 	
-	   - Burges, Christopher JC. [A tutorial on support vector machines for pattern recognition](01-lectures/Burges1998.pdf). Data mining and knowledge discovery 2, no. 2 (1998): 121-167.
-	  
+	   - Burges, Christopher JC. [A tutorial on support vector machines for pattern recognition](01-lectures/Burges1998.pdf). Data mining and knowledge discovery 2, no. 2 (1998): 121-167.  
 	
 8. **Clustering** [slides](01-lectures/08_clustering.pdf); [lab 08: k-means](03-labs/clustering.ipynb)
 	
