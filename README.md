@@ -88,22 +88,36 @@ It will be a written close book exam with questions based on the mandatory readi
 
 	This lecture introduces the concept of regularization as a means to controlling the complexity of the hypothesis space, and apply it to linear models. Furthermore, non-parametric methods are illustrated with the nearest-neighbors approaches. The discussed topics are: lasso, ridge regression, structured regularization, non-parametric learning, and k-nearest neighbors.
 
-	**References**:
+   **References**:
+	
 	  - [Linear Models](http://ciml.info/dl/v0_99/ciml-v0_99-ch07.pdf)
 	  - [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](http://web.stanford.edu/~hastie/ElemStatLearn/)
 	     * **Ridge regression**: session 3.4.1
 	     * **Lasso**: session 3.4.2
 	     * **Regularization**: session 10.12
 	
-6. **Tree-based methods** [slides](); [lab 06: tree-based method]()
+6. **Tree-based methods** [slides](01-lectures/06_decision_tree.pdf); [lab 06: tree-based method](03-labs/lab06_trees.ipynb)
 	
-	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors. The concepts are illustrated with ensemble methods, boosting, and random forests models.
+	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors.
 	
-7. **Support vector machines** [slides](); [lab 07: SVM]()
+	 **References**:
+	 
+	  - Quinlan, J. Ross. [Induction of decision trees](01-lectures/quinlan.pdf). Machine Learning 1, no. 1 (1986): 81-106.
+	  - [An Intoductory Tutorial on kd-trees](https://www.ri.cmu.edu/pub_files/pub1/moore_andrew_1991_1/moore_andrew_1991_1.pdf)
+	  - [Voronoi Tessellation](https://philogb.github.io/blog/2010/02/12/voronoi-tessellation/)
+	  - [A complete tutorial on tree-based modeling](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/#ten)
+	  - [How to visualize decision trees](https://explained.ai/decision-tree-viz/index.html)
+	
+7. **Support vector machines**
 
-	This lecture introduces support-vector machine from its principles in the case of linearly separable data, and shows how positive-definite kernels can be used to extend the approach to non-linear separating functions.
+	This lecture introduces support-vector machine from its principles in the case of linearly separable data and shows how positive-definite kernels can be used to extend the approach to non-linear separating functions.
 	
-8. **Clustering** [slides](); [lab 08: k-means]()
+	**References**:
+	
+	   - Burges, Christopher JC. [A tutorial on support vector machines for pattern recognition](01-lectures/Burges1998.pdf). Data mining and knowledge discovery 2, no. 2 (1998): 121-167.
+	  
+	
+8. **Clustering** [slides](01-lectures/08_clustering.pdf); [lab 08: k-means](03-labs/clustering.ipynb)
 	
 	This lecture introduces clustering, the common unsupervised learning problem. Its concepts are illustrated through hierarchical clustering, k-means, and DBSCAN.
 	 
