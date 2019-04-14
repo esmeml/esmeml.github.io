@@ -84,7 +84,7 @@ It will be a written close book exam with questions based on the mandatory readi
 
 	This lecture discusses model assessment of supervised machine learning. The discussed topics include: (a) training and test sets, (b) cross-validation, (c) bootstrap, (d) metrics of model complexity, and (e) metrics of performance for classification and regression. 
 	
-5. **Regularized linear regression and nearest-neighbors methods** [slides](01-lectures/05_regularized_linear_regression.pdf)
+5. **Regularized linear regression and nearest-neighbors methods** [slides](01-lectures/05_regularized_linear_regression.pdf)[lab 05: kNN](03-labs/lab05_kNN.ipynb)
 
 	This lecture introduces the concept of regularization as a means to controlling the complexity of the hypothesis space, and apply it to linear models. Furthermore, non-parametric methods are illustrated with the nearest-neighbors approaches. The discussed topics are: lasso, ridge regression, structured regularization, non-parametric learning, and [k-nearest neighbors](01-lectures/05.1_kNN.pdf).
 
@@ -97,7 +97,7 @@ It will be a written close book exam with questions based on the mandatory readi
 	     * **Lasso**: session 3.4.2
 	     * **Regularization**: session 10.12
 	
-6. **Tree-based methods** [slides](01-lectures/06_tree_based_learning_methods.pdf); [lab 06: tree-based method](03-labs/lab06_trees.ipynb)
+6. **Tree-based methods** [slides](01-lectures/06_tree_based_learning_methods.pdf); [lab 06.1: decision trees](03-labs/lab06_decision_tree.ipynb); [lab 06.2: tree-based methods](03-labs/lab06_tree_based_methods.ipynb)
 	
 	This lecture discusses decision tree approaches and shows how to combine simple classifiers to yield state-of-the-art predictors.
 	
