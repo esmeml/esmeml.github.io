@@ -86,11 +86,12 @@ It will be a written close book exam with questions based on the mandatory readi
 	
 5. **Regularized linear regression and nearest-neighbors methods** [slides](01-lectures/05_regularized_linear_regression.pdf)
 
-	This lecture introduces the concept of regularization as a means to controlling the complexity of the hypothesis space, and apply it to linear models. Furthermore, non-parametric methods are illustrated with the nearest-neighbors approaches. The discussed topics are: lasso, ridge regression, structured regularization, non-parametric learning, and k-nearest neighbors.
+	This lecture introduces the concept of regularization as a means to controlling the complexity of the hypothesis space, and apply it to linear models. Furthermore, non-parametric methods are illustrated with the nearest-neighbors approaches. The discussed topics are: lasso, ridge regression, structured regularization, non-parametric learning, and [k-nearest neighbors](01-lectures/05.1_kNN.pdf).
 
    **References**:
 	
 	  - [Linear Models](http://ciml.info/dl/v0_99/ciml-v0_99-ch07.pdf)
+	  - [Nearest Neighbors](http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf)
 	  - [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](http://web.stanford.edu/~hastie/ElemStatLearn/)
 	     * **Ridge regression**: session 3.4.1
 	     * **Lasso**: session 3.4.2
