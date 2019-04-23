@@ -4,9 +4,19 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about"> <!-- class="sidebar-about" -->
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>      
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+  <!-- <div class="sidebar-item">
     <p>{{ site.description }}</p>
-  </div>
+  </div> -->
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -32,4 +42,5 @@
     <p>      
     </p>
   </div>
+ </div>
 </div>
