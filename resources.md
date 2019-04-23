@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-order: 4
+order: 5
 ---
 
 ## Resources

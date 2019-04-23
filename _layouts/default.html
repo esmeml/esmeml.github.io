@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="theme-base-09,layout-reverse">
 
     {% include sidebar.html %}
 
@@ -13,7 +13,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            {% if page.url contains 'page' %}
+            <!-- {% if page.url contains 'page' %}
                 {% assign number = page.url | remove: site.url | remove: 'page' | remove: '/' | replace: ' ','-' | remove: "index.html" %}
             <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
          ~ $ cat $(find /var/log -name '*.log' -print | awk 'NR>{{ number | minus: '1' | times: '5' }}&amp;&amp;NR&lt;={{ number | times: '5' }}')</small>
@@ -26,7 +26,7 @@
               {% else %}
                 <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
              </small>
-              {% endif %}
+              {% endif %} -->
             </h3>
         </div>
       </div>
