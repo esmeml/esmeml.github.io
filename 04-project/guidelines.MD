@@ -4,8 +4,6 @@ title: Project Report Format
 order: 4
 ---
 
-# Project Report Format
-
 This page describes the guidelines to help you write up the final report of your project. Please note that the report should provide all the required information to evaluate your project, and at the same time, it should be concise and data-driven. I recommend you to follow these guidelines. Nonetheless, there is some flexibility, and you are welcome to add new sections as long as you remain within the general framework.
 
 Your final report **should not** exceed eight single-spaced pages, using 11 pt font. 

@@ -4,8 +4,6 @@ title: Schedule
 order: 2
 ---
 
-# Lectures
-
 1. **Introduction** [slides](01-lectures/01_introduction.pdf); [assignment 01](02-assignments/assignments_01.pdf)
 	
 	This lectures introduces machine learning, its applications, and the kind of problems it can be applied. Likewise, it presents related concepts such as supervised and unsupervised learning, and generalization.

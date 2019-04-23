@@ -4,8 +4,6 @@ title: Resources
 order: 5
 ---
 
-## Resources
-
 * [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 * [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 * [Kaggle datasets](https://www.kaggle.com/datasets)
