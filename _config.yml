@@ -1,9 +1,75 @@
+# Dependencies
+markdown:           kramdown 
+highlighter:        rouge
 
-title: ESME-ML
-description: Introduction to Machine Learning
-show_downloads: false
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Introduction to Machine Learning
+tagline:             "machine learning"
+description:         'Introduction to Machine Learning'
+url:                 https://esmeml.github.io
+baseurl:             ''
+paginate:            20
+# paginate_path:       "/blog/page:num/"
+
+# About/contact
+author:
+  name:              Alessandro Leite
+  url:               https://twitter.com/alessandroleite
+  email:             
+
+# Optional features
+google_analytics_id: UA-136395471-1
 google_analytics: UA-136395471-1
 
-theme: jekyll-theme-dinky
-is_project_page: false
-is_user_page: false
+# Source vars
+version:             0.6.0
+github:              "https://github.com/esmeml"
+repo:                "https://github.com/esmeml/esmeml.github.io"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+
+# Collections
+collections:
+  - posts
+
+# Pagination Configuration
+paginate: 5
+paginate_path: "/page/:num/"
+
+# Page Listing
+# pages_list:
+#   About:             /about
+#   Archive:           /archive
+#   Tags:              /tags
+#   Feed:              /atom.xml
+#   Site Information:  /site
+
+
+# Custom vars
+version:          1.0.0
+categorylist:     [machine learning, support vector machine, linear regression, principal component analysis, decision trees]
+collections:
+    notes:
+        collections_dir: notes
+        output: true
+permalink: /notes/:name
+  
+  
+  # Github flavored markdown
+markdown: kramdown
+kramdown:
+  auto_ids:      true
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  input:         GFM
+  hard_wrap:     false
+  footnote_nr:   1
+  show_warnings: false

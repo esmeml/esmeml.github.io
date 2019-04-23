@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            {% if page.url contains 'page' %}
+                {% assign number = page.url | remove: site.url | remove: 'page' | remove: '/' | replace: ' ','-' | remove: "index.html" %}
+            <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
+         ~ $ cat $(find /var/log -name '*.log' -print | awk 'NR>{{ number | minus: '1' | times: '5' }}&amp;&amp;NR&lt;={{ number | times: '5' }}')</small>
+            {% elsif page.title == 'Home' %}
+            <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
+             ~ $ {{ site.tagline }}</small>
+             {% elsif page.url contains '20' %}
+                 <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
+              ~ $ cat /var/log/{{ page.title | remove: ' -' | downcase | remove: ':' | replace: ' ','-' | remove: "." }}.log</small>
+              {% else %}
+                <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
+             ~ $ cat /var/log/pages/{{ page.title | downcase | replace:' ','-' | remove: '.' }}.md</small>
+              {% endif %}
+            </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='{{ site.baseurl }}/public/js/script.js'></script>
+  </body>
+</html>
