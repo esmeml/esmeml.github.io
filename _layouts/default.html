@@ -25,7 +25,7 @@
               ~ $ cat /var/log/{{ page.title | remove: ' -' | downcase | remove: ':' | replace: ' ','-' | remove: "." }}.log</small>
               {% else %}
                 <small><a href="https://127.0.0.1">$USER</a>@<a href="{{ site.baseurl }}/" title="Home">{{ site.title | downcase | replace:" ","-" }}</a>
-             ~ $ cat /var/log/pages/{{ page.title | downcase | replace:' ','-' | remove: '.' }}.md</small>
+             </small>
               {% endif %}
             </h3>
         </div>
