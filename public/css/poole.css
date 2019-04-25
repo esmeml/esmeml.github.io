@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -60,7 +60,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #fdfdfd;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -150,13 +150,13 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: "Inconsolata", monospace;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #EFEFEF;
+  background-color: #f9f9f9;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +170,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #EFEFEF;
+  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -190,7 +190,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: "Inconsolata", monospace !important;
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -240,7 +240,6 @@ table {
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
-  table-layout: fixed;
 }
 td,
 th {
@@ -249,7 +248,7 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #EFEFEF;
+  background-color: #f9f9f9;
 }
 
 
@@ -276,7 +275,7 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
-  background-color: #EFEFEF;
+  background-color: #f9f9f9;
 }
 
 
@@ -390,7 +389,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Dosis", sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
