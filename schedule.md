@@ -70,9 +70,11 @@ order: 2
 	  - Burges, Christopher JC. [A tutorial on support vector machines for pattern recognition](01-lectures/Burges1998.pdf). Data mining and knowledge discovery 2, no. 2 (1998): 121-167
   
 	
-8. **Clustering** [slides](01-lectures/08_clustering.pdf); [lab 08: k-means](03-labs/clustering.ipynb)
+8. **Clustering** <!--[slides](01-lectures/08_clustering.pdf); [lab 08: k-means](03-labs/clustering.ipynb) -->
 	
 	This lecture introduces clustering, the common unsupervised learning problem. Its concepts are illustrated through hierarchical clustering, k-means, and DBSCAN.
+
+9. **Practical Exam** [Jupyter Notebook](03-labs/lab07_exam.ipynb) 
 	 
 <!--9. **Neural networks** [slides](); [lab 09: neural_networks]()
 
